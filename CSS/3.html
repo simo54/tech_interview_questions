@@ -2,6 +2,7 @@
 <html lang="en">
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
     * {
       font-family: "Kiwi Maru", serif;
@@ -28,6 +29,34 @@
 
     .wrapper {
       width: 500px;
+    }
+
+    @media (max-width: 575.98px) {
+      * {
+        font-family: "Lato", sans-serif;
+      }
+
+      header {
+        text-align: left;
+      }
+
+      .image_container {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .message_container {
+        display: flex;
+        justify-content: end;
+      }
+
+      .wrapper {
+        width: 400px;
+      }
+
+      .wrapper p {
+        text-align: justify;
+      }
     }
   </style>
   <body>
