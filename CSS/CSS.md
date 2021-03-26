@@ -11,4 +11,4 @@
 
 3. What techniques will you use for making a a website responsive?
 
-   - I will personally use [Media Query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) at most, because it makes life really easy and because queries are customizable.
+   - I will personally use [Media Query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) at most, because it makes life really easy and because queries are customizable. An example can be found on the file `3.html`

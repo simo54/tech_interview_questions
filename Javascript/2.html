@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      const sample_array = [1, 2.5, 5, 43];
+      console.log("Initial Array: " + sample_array);
+      const number = 3;
+      console.log("Test number is: " + number);
+      sample_array.forEach(
+        (number_array, index) => (sample_array[index] = number_array * number)
+      );
+      console.log("Updated Array: " + sample_array);
+    </script>
+  </body>
+</html>
