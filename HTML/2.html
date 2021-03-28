@@ -26,13 +26,13 @@
       <label for="sname">String name:</label><br />
       <input type="text" id="sname" name="sname" /><br /><br />
     </form>
-    <button type="submit" form="test2" value="Submit">Submit</button>
+    <button onclick="submitFunction()">Submit</button>
 
     <script>
-
-      const submitFunction = (){
-
-      }
+      const form = document.getElementById("test3");
+      const submitFunction = () => {
+        form.submit();
+      };
     </script>
   </body>
 </html>
